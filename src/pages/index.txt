@@ -1,0 +1,8 @@
+---
+import Layout from '../layouts/Layout.astro';
+import RecyclingMemoryGame from '../components/RecyclingMemoryGame.jsx';
+---
+
+<Layout title="Recycling Memory Game">
+  <RecyclingMemoryGame client:load />
+</Layout>
